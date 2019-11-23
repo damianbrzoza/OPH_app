@@ -235,7 +235,16 @@ div.uploader {
       background-position: right -381px; }
 
 /* Buttons */
-div.button {
+a.button {
+  width: 100%;
+  height: 100px !important;
+  font-size: 30px;
+  border-width: 8px;
+  border-style: solid;
+  display: flex;
+justify-content: center;
+align-items: center;
+
   background-position: 0 -641px;
   height: 30px;
   cursor: pointer;
