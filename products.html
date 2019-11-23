@@ -65,154 +65,138 @@
 					</nav>
 				</header>
 			</div>
+			
 			<section class="main">
 				<div class="content">
-					<div class="box_images">
-						<a href="#"><img src="images/pic_01.png" alt="" ></a>
-					</div>
-					<ul class="box_image_list">
-						<li><a href="#"><img src="images/pic_02.png" alt="" ></a></li>
-						<li><a href="#"><img src="images/pic_03.png" alt="" ></a></li>
-						<li><a href="#"><img src="images/pic_04.png" alt="" ></a></li>
-					</ul>
-					<div class="clear"></div>
-					<section class="container">
-						<div class="bottom-slider">
-							<a href="#" class="btn-left"></a>
-							<div class="slides">
-								<p>Last added products</p>
-								<ul class="item-list">
-									<li>
-										<div class="item">
-											<div class="image">
-											<a href="#"><img src="images/pic_carusel_01.png"  alt="" /></a>
-												<div class="hover">
-													<p>Perspiciatis unde omnis iste natus voluptatem</p>
-													<strong>$55.00</strong>
-												</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="item">
-											<div class="image">
-												<a href="#"><img src="images/pic_carusel_02.png"  alt="" /></a>
-												<div class="hover">
-													<p>Perspiciatis unde omnis iste natus voluptatem</p>
-													<strong>$55.00</strong>
-												</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="item">
-											<div class="image">
-												<a href="#"><img src="images/pic_carusel_03.png"  alt="" /></a>
-												<div class="hover">
-													<p>Perspiciatis unde omnis iste natus voluptatem</p>
-													<strong>$55.00</strong>
-												</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="item">
-											<div class="image">
-												<a href="#"><img src="images/pic_carusel_02_2.png"  alt="" /></a>
-												<div class="hover">
-													<p>Perspiciatis unde omnis iste natus voluptatem</p>
-													<strong>$55.00</strong>
-												</div>
-											</div>
-										</div>
-									</li>
-									<li class="last">
-										<div class="item">
-											<div class="image">
-												<a href="#"><img src="images/pic_carusel_04.png"  alt="" /></a>
-												<div class="hover">
-													<p>Perspiciatis unde omnis iste natus voluptatem</p>
-													<strong>$55.00</strong>
-												</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="item">
-											<div class="image">
-												<a href="#"><img src="images/pic_carusel_02.png"  alt="" /></a>
-												<div class="hover">
-													<p>Perspiciatis unde omnis iste natus voluptatem</p>
-													<strong>$55.00</strong>
-												</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="item">
-											<div class="image">
-												<a href="#"><img src="images/pic_carusel_03.png"  alt="" /></a>
-												<div class="hover">
-													<p>Perspiciatis unde omnis iste natus voluptatem</p>
-													<strong>$55.00</strong>
-												</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="item">
-											<div class="image">
-												<a href="#"><img src="images/pic_carusel_02_2.png"  alt="" /></a>
-												<div class="hover">
-													<p>Perspiciatis unde omnis iste natus voluptatem</p>
-													<strong>$55.00</strong>
-												</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="item">
-											<div class="image">
-												<a href="#"><img src="images/pic_carusel_03.png"  alt="" /></a>
-												<div class="hover">
-													<p>Perspiciatis unde omnis iste natus voluptatem</p>
-													<strong>$55.00</strong>
-												</div>
-											</div>
-										</div>
-									</li>
-									<li class="last">
-										<div class="item">
-											<div class="image">
-												<a href="#"><img src="images/pic_carusel_02.png"  alt="" /></a>
-												<div class="hover">
-													<p>Perspiciatis unde omnis iste natus voluptatem</p>
-													<strong>$55.00</strong>
-												</div>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</div>
-							<a href="#" class="btn-right"></a>
+					<section class="bar">
+						<div class="bar-frame">
+							<ul class="breadcrumbs">
+								<li><a href="index.html">Home</a></li>
+								<li>Product results</li>
+							</ul>
 						</div>
 					</section>
-					<div class="block-advice">
-						<div class="advice-holder">
-							<p>Join our newsletter</p>
-						</div>
-						<form action="#" class="form-newsletter">
+					<div class="top-bar">
+						<form class="form-sort" action="#">
 							<fieldset>
-								<input type="text" placeholder="Put your email..." />
-								<input class="btn black normal" type="submit" value="Subscribe" />
+								<div class="row">
+									<label for="sort">Sort by :</label>
+									<select id="sort">
+										<option>price</option>
+										<option>price</option>
+									</select>
+								</div>
+								<div class="row">
+									<label for="page">Products per page:</label>
+									<select id="page">
+										<option>8</option>
+										<option>8</option>
+									</select>
+								</div>
+								<div class="row">
+									<label for="page">Type of product:</label>
+									<select id="page">
+										<option>Boxed</option>
+										<option>Boxed</option>
+									</select>
+								</div>
 							</fieldset>
 						</form>
+						<ul class="paging">
+							<li class="prev"><a href="#">prev</a></li>
+							<li><a href="#">1</a></li>
+							<li class="active"><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li class="next"><a href="#">next</a></li>
+						</ul>
 					</div>
-					<div class="banner_box">
-						<p>Take a part in our competition</p>
-						<span>and get 80% discount for shopping</span>
+					<ul class="item-product">
+						<li>
+							<div class="item">
+								<div class="image">
+									<a href="product.html"><img src="images/pic_05.png"  alt="" /></a>
+								</div>
+								<span class="name"><a href="product.html">Lorem ipsum dolor</a></span>
+								<span>$65.00</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<div class="image">
+									<a href="product.html"><img src="images/pic_06.png"  alt="" /></a>
+								</div>
+								<span class="name"><a href="product.html">Lorem ipsum dolor</a></span>
+								<span>$49.99</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<div class="image">
+									<a href="product.html"><img src="images/pic_07.png"  alt="" /></a>
+								</div>
+								<span class="name"><a href="product.html">Lorem ipsum dolor</a></span>
+								<span>$20.00</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<div class="image">
+									<a href="product.html"><img src="images/pic_08.png"  alt="" /></a>
+								</div>
+								<span class="name"><a href="product.html">Lorem ipsum dolor</a></span>
+								<span>$59.99</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<div class="image">
+									<a href="product.html"><img src="images/pic_09.png"  alt="" /></a>
+								</div>
+								<span class="name"><a href="product.html">Lorem ipsum dolor</a></span>
+								<span>$15.99</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<div class="image">
+									<a href="product.html"><img src="images/pic_10.png"  alt="" /></a>
+								</div>
+								<span class="name"><a href="product.html">Lorem ipsum dolor</a></span>
+								<span>$9.99</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<div class="image">
+									<a href="product.html"><img src="images/pic_11.png"  alt="" /></a>
+								</div>
+								<span class="name"><a href="product.html">Lorem ipsum dolor</a></span>
+								<span>$80.00</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<div class="image">
+									<a href="#"><img src="images/pic_12.png"  alt="" /></a>
+								</div>
+								<span class="name"><a href="product.html">Lorem ipsum dolor</a></span>
+								<span>$49.99</span>
+							</div>
+						</li>
+					</ul>
+					<div class="top-bar top-bar-add">
+						<ul class="paging">
+							<li class="prev"><a href="#">prev</a></li>
+							<li><a href="#">1</a></li>
+							<li class="active"><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li class="next"><a href="#">next</a></li>
+						</ul>
 					</div>
-					<div class="clear"></div>
 				</div>
 			</section>
 		</div>
@@ -253,7 +237,7 @@
 				<div class="clear"></div>
 				<p class="copy">Copyright 2014 Bambino. All rights reserved.</p>
 			</div>
-		</footer>	
+		</footer>		
 	</div>
 	
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
